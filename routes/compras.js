@@ -7,7 +7,7 @@ const router = express.Router()
 
 
 
-router.get("/compras", (req,res)=>{
+router.get("/", (req,res)=>{
     res.render("compras")
 })
 
